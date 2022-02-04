@@ -276,11 +276,8 @@ a {
           align-items: flex-start;
   color: #000000;
   background-color: #FFFFFF;
-  box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
   -webkit-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -moz-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -ms-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -o-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
+          box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
   z-index: 9999;
   opacity: 1;
   -webkit-transition: 0.25s ease-in-out;
@@ -424,7 +421,7 @@ a {
 .product-page .products .products__cards .text-block,
 .cart-page .products .products__cards .text-block,
 .registration-page .products .products__cards .text-block {
-  padding: 0 20px 20px 18px;
+  padding: 25px 20px 20px 18px;
 }
 
 .main-page .products .products__cards .text-block .subtittle,
@@ -436,7 +433,7 @@ a {
   font-size: 13px;
   line-height: 16px;
   text-transform: uppercase;
-  padding: 25px 0 12px 0;
+  padding-bottom: 12px;
 }
 
 .main-page .products .products__cards .text-block .text,
@@ -768,7 +765,6 @@ a {
 .cart-page .subscribe-block .items,
 .registration-page .subscribe-block .items {
   position: relative;
-  color: #222222;
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
@@ -780,7 +776,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FFFFFF;
   z-index: 2;
 }
 
@@ -1305,11 +1300,8 @@ a {
   min-height: 531px;
   z-index: 2;
   background-color: #FFFFFF;
-  box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
   -webkit-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -moz-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -ms-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -o-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
+          box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
   padding: 13px 17px;
   margin: -32px 0 0 -17px;
   opacity: 0;
@@ -1366,11 +1358,8 @@ a {
   width: 69px;
   z-index: 2;
   background-color: #FFFFFF;
-  box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
   -webkit-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -moz-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -ms-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
-  -o-box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
+          box-shadow: 0 0 20px rgba(50, 50, 50, 0.15);
   padding: 10px;
   opacity: 0;
   margin-top: 5px;
@@ -1575,11 +1564,8 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
   -webkit-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
-  -moz-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
-  -ms-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
-  -o-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+          box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
   margin-bottom: 40px;
 }
 
@@ -2151,12 +2137,12 @@ a {
   .product-page .page-top-block .page-wrap,
   .cart-page .page-top-block .page-wrap,
   .registration-page .page-top-block .page-wrap {
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     min-height: 148px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2233,8 +2219,8 @@ a {
   }
   .catalog-page .filters-block {
     grid-gap: unset;
-    -ms-grid-columns: .5fr 3fr;
-        grid-template-columns: .5fr 3fr;
+    -ms-grid-columns: 0.5fr 3fr;
+        grid-template-columns: 0.5fr 3fr;
     justify-items: stretch;
   }
   .catalog-page .filters-block .burger-icon2 {
@@ -2403,8 +2389,8 @@ a {
   .product-page .collections-block .filters ul li .icon {
     padding-left: 3px;
   }
-  .cart-page .shopping-cart .shopping-cart__group .shopping-cart__block .block-orders .order .shopping-cart__card .shopping-cart__card__info .description .quantity {
-    margin-left: 8px;
+  .shopping-cart .quantity {
+    margin-left: 8px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
